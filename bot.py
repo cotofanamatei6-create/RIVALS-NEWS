@@ -41,11 +41,15 @@ def get_rivals_news():
 
 def update_archive():
     # ȘTIRI FIXE - Baza ta de date de la început
+    static_news =     # ȘTIRI FIXE - Doar Mesaje Text (fără link-uri externe)
     static_news = [
-        {"title": "RIVALS Official Launch: The 1v1 Arena is now open!", "link": "https://roblox.com", "date": "2024-06-25"},
-        {"title": "Global Leaderboards: Top players are now visible in-game.", "link": "https://roblox.com", "date": "2024-08-10"},
-        {"title": "New Weapon Skins Update: Check the latest bundles!", "link": "https://roblox.com", "date": "2024-09-01"}
+        {"title": "🔥 NEW CODES! Use '100MVISITS' for a Free Rare Crate and 5,000 Coins! 💰", "date": "2026-04-01"},
+        {"title": "🚀 CYBER UPDATE: New 'Neon City' Map is now LIVE! Optimized for 1v1 Snipers! 🏙️⚡", "date": "2026-03-28"},
+        {"title": "🏆 SEASON 5 RESET: The Global Leaderboards are OPEN! Can you reach Top 100? ✨", "date": "2026-03-25"},
+        {"title": "🔫 NEW BUNDLE: Get the 'Inferno Dragon' Sniper Skin! Limited time only! 🐉🔥", "date": "2026-03-20"},
+        {"title": "⚙️ PERFORMANCE PATCH: Fixed lag spikes and improved hit registration! 🛠️✅", "date": "2026-03-15"}
     ]
+
 
     # 1. Verificăm dacă există deja arhiva
     if os.path.exists('news.json'):
