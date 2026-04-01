@@ -24,7 +24,8 @@
 
     <script>
         // Încercăm să citim fișierul generat de robot
-        fetch('news.json')
+        fetch('./news.json')
+
             .then(response => {
                 if (!response.ok) throw new Error("File not found");
                 return response.json();
